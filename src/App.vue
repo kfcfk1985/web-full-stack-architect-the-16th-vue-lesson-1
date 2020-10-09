@@ -1,10 +1,12 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!-- <img src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <communication></communication> -->
     <!-- <slot-example></slot-example> -->
-    <form-example></form-example>
+    <!-- <form-example></form-example> -->
+
+    <listenters-test></listenters-test>
   </div>
 </template>
 
@@ -14,13 +16,16 @@ import communication from '@/components/communication';
 import SlotExample from '@/components/slots'
 import FormExample from '@/components/form'
 
+import ListentersTest from '@/components/listentersTest';
+
 export default {
   name: 'app',
   components: {
     HelloWorld,
     communication,
     SlotExample,
-    FormExample
+    FormExample,
+    ListentersTest
   }
 }
 </script>
