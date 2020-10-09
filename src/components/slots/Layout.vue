@@ -3,13 +3,16 @@
     <div class="header">
       <slot name="header"></slot>
     </div>
+
     <div class="body">
       <!-- 匿名插槽 -->
       <slot></slot>
     </div>
+
     <div class="footer">
       <slot name="footer" :fc="footerContent"></slot>
     </div>
+    
   </div>
 </template>
 

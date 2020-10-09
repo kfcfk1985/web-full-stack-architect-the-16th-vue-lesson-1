@@ -3,10 +3,10 @@
     <!-- <img src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <communication></communication> -->
-    <!-- <slot-example></slot-example> -->
+    <slot-example></slot-example>
     <!-- <form-example></form-example> -->
 
-    <listenters-test></listenters-test>
+    <!-- <listenters-test></listenters-test> -->
   </div>
 </template>
 
