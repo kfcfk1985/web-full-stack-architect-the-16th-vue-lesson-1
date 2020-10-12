@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>任意两个组件之间传值常用事件总线</h1>
+        <h1>兄弟组件之间通信可通过共同祖辈搭桥，$parent或$root</h1>
         <Child1></Child1>     
         <Child2></Child2>   
     </div>

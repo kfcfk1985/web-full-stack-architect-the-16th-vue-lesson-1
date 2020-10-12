@@ -10,7 +10,7 @@
 
      <!-- <MyForm></MyForm> -->
 
-     <EventBusDemo></EventBusDemo>
+     <Mycommunication></Mycommunication>
 
   </div>
 </template>
@@ -22,9 +22,9 @@ import SlotExample from '@/components/slots'
 import FormExample from '@/components/form'
 
 import ListentersTest from '@/components/listentersTest';
-import MyForm from './ldf_components/MyForm';
+import MyForm from '@/ldf_components/MyForm';
 
-import EventBusDemo from './ldf_components/communication/eventBus';
+import Mycommunication from '@/ldf_components/communication/';
 
 export default {
   name: 'app',
@@ -35,7 +35,7 @@ export default {
     FormExample,
     ListentersTest,
     MyForm,
-    EventBusDemo
+    Mycommunication
   }
 }
 </script>
