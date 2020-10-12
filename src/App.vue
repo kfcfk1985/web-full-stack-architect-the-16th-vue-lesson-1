@@ -8,7 +8,10 @@
 
     <!-- <listenters-test></listenters-test> -->
 
-     <MyForm></MyForm>
+     <!-- <MyForm></MyForm> -->
+
+     <EventBusDemo></EventBusDemo>
+
   </div>
 </template>
 
@@ -21,7 +24,7 @@ import FormExample from '@/components/form'
 import ListentersTest from '@/components/listentersTest';
 import MyForm from './ldf_components/MyForm';
 
-
+import EventBusDemo from './ldf_components/communication/eventBus';
 
 export default {
   name: 'app',
@@ -31,7 +34,8 @@ export default {
     SlotExample,
     FormExample,
     ListentersTest,
-    MyForm
+    MyForm,
+    EventBusDemo
   }
 }
 </script>
