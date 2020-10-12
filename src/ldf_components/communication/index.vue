@@ -1,7 +1,10 @@
 <template>
     <div>
         <!-- <EventBusDemo></EventBusDemo> -->
-        <parentOrRoot></parentOrRoot>
+        <!-- <parentOrRoot></parentOrRoot> -->
+
+
+        <attrs></attrs>
 
 
     </div>
@@ -10,11 +13,13 @@
 <script>
     import EventBusDemo from '@/ldf_components/communication/eventBus';
     import parentOrRoot from '@/ldf_components/communication/parentOrRoot';
+    import attrs from '@/ldf_components/communication/attrs';
 
     export default {
         components: {
             EventBusDemo,
-            parentOrRoot
+            parentOrRoot,
+            attrs
         },
     }
 </script>
