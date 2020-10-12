@@ -3,14 +3,19 @@
     <!-- <img src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <communication></communication> -->
-    <!-- <slot-example></slot-example> -->
+    
+    
+    <slot-example></slot-example>
+      <MySlots></MySlots>
+
+
     <!-- <form-example></form-example> -->
 
     <!-- <listenters-test></listenters-test> -->
 
      <!-- <MyForm></MyForm> -->
 
-     <Mycommunication></Mycommunication>
+     <!-- <Mycommunication></Mycommunication> -->
 
   </div>
 </template>
@@ -25,6 +30,7 @@ import ListentersTest from '@/components/listentersTest';
 import MyForm from '@/ldf_components/MyForm';
 
 import Mycommunication from '@/ldf_components/communication/';
+import MySlots from '@/ldf_components/slots/';
 
 export default {
   name: 'app',
@@ -35,7 +41,8 @@ export default {
     FormExample,
     ListentersTest,
     MyForm,
-    Mycommunication
+    Mycommunication,
+    MySlots,
   }
 }
 </script>
