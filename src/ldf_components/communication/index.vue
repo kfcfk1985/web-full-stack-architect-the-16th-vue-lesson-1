@@ -4,7 +4,8 @@
         <!-- <parentOrRoot></parentOrRoot> -->
 
 
-        <attrs></attrs>
+        <!-- <attrs></attrs> -->
+        <listeners></listeners>
 
 
     </div>
@@ -14,12 +15,14 @@
     import EventBusDemo from '@/ldf_components/communication/eventBus';
     import parentOrRoot from '@/ldf_components/communication/parentOrRoot';
     import attrs from '@/ldf_components/communication/attrs';
+    import listeners from '@/ldf_components/communication/listeners';
 
     export default {
         components: {
             EventBusDemo,
             parentOrRoot,
-            attrs
+            attrs,
+            listeners,
         },
     }
 </script>
