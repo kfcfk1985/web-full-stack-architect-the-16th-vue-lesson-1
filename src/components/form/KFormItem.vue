@@ -15,6 +15,8 @@
 import Schema from "async-validator";
 
 export default {
+  name:'KFormItem',
+  componentName:'KFormItem',
   inject: ["form"],
   data() {
     return {
