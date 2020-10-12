@@ -5,11 +5,11 @@
     <!-- <communication></communication> -->
     
     
-    <slot-example></slot-example>
-      <MySlots></MySlots>
+    <!-- <slot-example></slot-example> -->
+      <!-- <MySlots></MySlots> -->
 
 
-    <!-- <form-example></form-example> -->
+    <form-example></form-example>
 
     <!-- <listenters-test></listenters-test> -->
 
