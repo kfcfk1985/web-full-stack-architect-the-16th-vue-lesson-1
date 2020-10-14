@@ -1,4 +1,3 @@
-
 // import Vue from 'vue';
 // export default function(component,props){
 
@@ -23,11 +22,14 @@
 
 
 import Vue from 'vue';
-export default function(component,props){
+import Notice from "@/components/Notice.vue";
+
+
+const create = function (component, props) {
 
   const Constructor = Vue.extend(component)
-  let comp = new Constructor({propsData:props})
-  comp.$mount()   //$mount()之后，comp实例才带有$el
+  let comp = new Constructor({propsData: props})
+  comp.$mount() //$mount()之后，comp实例才带有$el
 
   document.body.appendChild(comp.$el);
 
@@ -37,4 +39,12 @@ export default function(component,props){
   }
 
   return comp
+}
+
+export default {
+  install(Vue) {
+    Vue.prototype.$createNotic = function (props) {
+      return create(Notice, props)
+    }
+  }
 }
