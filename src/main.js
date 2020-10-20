@@ -1,8 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
 import './plugins/element.js'
+
 // import create from './utils/create'
 import create from './utils_ldf/create'
+
+import router from './router'
 
 
 Vue.config.productionTip = false
@@ -13,5 +16,6 @@ Vue.use(create);
 
 
 new Vue({
-  render: h => h(App),
+  router,
+  render: h => h(App)
 }).$mount('#app')
